@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Basics of HTML
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+   
+    <body style="align-content: center; font-family: Century Gothic;">
+          <div class="sidebar " style="width:180px ;background-image:url(sheldon.jpg)">
+            <h5 class="bar-item" style="color: black; font-family: Bradley Hand ITC; font-size: 30px;">The Musketeers</h5>
+            <button class="sidebutton w-3card" onclick="openTab(event, 'main')">Main</button><br>
+            <button class="sidebutton" onclick="openTab(event, 'table')">Gurarpit</button><br>
+            <button class="sidebutton" onclick="openTab(event, 'list')">Prakhar</button><br>
+            <button class="sidebutton" onclick="openTab(event, 'form')">Kushaggra</button>
+          </div>
+
+
+        <a id = "name"></a>
+        <div style="margin-left:200px">
+       
+
+<div id="main" class="w3-container content">
+ <center>
+                    <div style="font-family: 'Dancing Script', cursive; font-size: 70px; vertical-align:middle;">😍Happy Birthday😍<br></div>
+                    <div style="font-family: 'Shadows Into Light', cursive; font-size: 300px; vertical-align:middle;">Karan...<br></div>
+                    <div style="font-family: 'Dancing Script', cursive; font-size: 70px; vertical-align:middle;">Bro....<3</div>
+
+                </center>
+    
+
+</div>
+
+
+  <div id="table" class="content" style="display:none">
+    <center>
+     <h1>May ALL your WISHES and DREAMS come True!!!</h1>
+   <image src="1.png" style="width:60%; height: 60%">
+  
+</center>
+  </div>
+
+ <center>
+  <div id="list" class="content" style="display:none;   font-size:40px ;
+    box-shadow: 1px 3px 6px 2px black;font-family: 'Shadows Into Light', cursive; width:70%;">
+    <center>
+    Met each other as perfect strangers, not knowing each other yet in a group of 4 "PEEPS".
+<br>
+There started the foundation of our friendship.
+Started from a text message of 4-5 words to a google meet of 2 hours.
+Be we never met each other(in real life XD), but that's not a compulsion on any end.
+<br>
+Late Night "Hackathon" chilling is one of the best times in my college life till now
+(which is very brief of just one year).
+<br>
+Much of photos needed and also STAY SAME , STAY CONNECTED.
+ <br>
+XD XD XD
+</center>
+  </div>
+</center>
+                        <center>
+                        <div id="form" class="content" style="display:none;   font-size:40px ;
+                            box-shadow: 1px 3px 6px 2px black;font-family: 'Shadows Into Light', cursive; width:70%;">
+                            <center>
+                            MOKSHA , it was, right....
+                        <br>
+                        Never knew that we would get to know each other so well at that time.
+                        And now we are a team !!!
+                        <br>
+                      From your fist doubt......                        <br>
+                      to the crazy rush of Firebase integrations and Slideshows... hahaha<br>
+                      it was a thrilling journey!!!
+                        
+                        <br>
+                        Hope to have a meet soon.....
+                        <br>
+                        Once Again Wish You a very very<br>HAPPY BIRTHDAY dear!
+                        </center>
+                        </div>
+                        </center>
+
+<!-- Comments -->
+<!--  -->
+<div id="extra" class="content"  style="display:none" >
+    <center>
+         <h1>Hi Last!</h1>
+    
+    </center>
+   
+   
+   </div> 
+
+
+    </div>
+        <script>
+            function openTab(evt, tabName) {
+                    var i, x;
+                    x = document.getElementsByClassName("content");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    document.getElementById(tabName).style.display = "block";
+
+                    }
+
+        </script>
+        <p style="text-align: right; font-size: small;">@Hackathon and Resources </p>
+    </body>
+</html>
